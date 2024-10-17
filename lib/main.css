@@ -1,0 +1,82 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color: #e15f41;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    background-color: #fff;
+    color: #e15f41;
+}
+
+.navbar-brand,
+.navbar-nav .nav-item .nav-link,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.col-4 .h3{
+    margin-top: 10px;
+}
+
+.h1,
+.h2, 
+.h3,
+.h4,
+.nav-link{
+    font-family: "Pacifico", cursive;
+}
+
+.nav-cardapio .nav-link.active,
+.btn{
+    background-color: #e15f41;
+}
+
+.nav-cardapio .nav-link:hover{
+      color:#e15f41;   
+}
+
+.h1 span,
+.h2 span, 
+.h3 span,
+.h4 span{
+    font-family: "Pacifico", cursive;
+    color: #e15f41;
+}
+
+.text-colored,
+{
+    color: #e15f41;
+}
+
+#evento,
+#contato{
+    color: black;
+    background-color: #fefcfc;
+}
+
+#contato{
+    height: 100vh;
+}
+
+section{
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.row .h2{
+    padding: 20px 0;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.col-4 img{
+    height: 350px;
+}
+
+.card .card-img-top{
+    height:250px;
+}
