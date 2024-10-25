@@ -2,12 +2,12 @@ body{
     font-family: Roboto, sans-serif;
 }
 .navbar{
-    background-color: #e15f41;
+    background-color: #1976D2;
 }
 
 .navbar-nav .nav-item .nav-link.active{
     background-color: #fff;
-    color: #e15f41;
+    color: #1976D2;
 }
 
 .navbar-brand,
@@ -33,11 +33,11 @@ form{
 
 .nav-cardapio .nav-link.active,
 .btn{
-    background-color: #e15f41;
+    background-color: #1976D2;
 }
 
 .nav-cardapio .nav-link:hover{
-    color:#e15f41;   
+    color:#1976D2;   
 }
 
 .h1 span,
@@ -45,18 +45,18 @@ form{
 .h3 span,
 .h4 span{
     font-family: "Pacifico", cursive;
-    color: #e15f41;
+    color: #1976D2;
 }
 
 .text-colored
 {
-    color: #e15f41;
+    color: #1976D2;
 }
 
 #evento,
 #contato{
     color: black;
-    background-color: #fefcfc;
+    background-color: #E3F2FD;
 }
 
 #contato{
@@ -85,7 +85,7 @@ section{
 }
 
 form .btn:hover{
-    background-color: #e15f41;
+    background-color: #1976D2;
 }
 
 .social-links li{
@@ -93,7 +93,7 @@ form .btn:hover{
 }
 
 .social-links .bi{
-    color: #e15f41;
+    color: #1976D2;
 }
 
 @media screen and (max-width:767px){

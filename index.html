@@ -17,7 +17,7 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
             <div class="container">
-                <h1 class="navbar-brand h1">Meu restaurante</h1>                   
+                <h1 class="navbar-brand h1">Imobiliária</h1>                   
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,13 +32,13 @@
                         <li class="nav-item">
                             <a href="#evento" class="nav-link">
                                 <i class="bi bi-calendar3 me-2"></i>
-                                Eventos
+                                Destaques
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#cardapio" class="nav-link">
                                 <i class="bi bi-postcard me-2"></i>
-                                Cardápio
+                                Imóveis
                             </a>
                         </li>
                         <li class="nav-item">
@@ -53,83 +53,87 @@
         </nav>
     </header>
     <!-- Section Carousel -->
-     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true"> <!-- data-bs-smooth-scroll - Faz cpm que a página role até o topo da secção quando for clicada no menu -->>
-        <section id="sobre" class="">
-            <div class="carousel slide" id="slideSobre" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="0" arial-label="1" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="1" arial-label="2"></button>
-                    <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="2" arial-label="3"></button>
+     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true"> <!-- data-bs-smooth-scroll - Faz cpm que a página role até o topo da secção quando for clicada no menu -->
+       <!-- Sobre -->
+        <div class="container">
+            <section id="sobre" class="">
+                <div class="carousel slide" id="slideSobre" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="0" arial-label="1" class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="1" arial-label="2"></button>
+                        <button type="button" data-bs-target="#slideSobre" data-bs-slide-to="2" arial-label="3"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active" data-bs-interval="">
+                            <img src="./img/apart-1.jpg" alt="Slide 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="">
+                            <img src="./img/terreno-1.jpg" alt="Slide 2" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="">
+                            <img src="./img/casa-1.jpg" alt="Slide 3" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slideSobre" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Prev</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slideSobre" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="">
-                        <img src="./img/pexels-chanwalrus-941861.jpg" alt="Slide 1" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="">
-                        <img src="./img/pexels-mat-brown-150387-1395964.jpg" alt="Slide 2" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="">
-                        <img src="./img/pexels-pixabay-260922.jpg" alt="Slide 3" class="d-block w-100">
-                    </div>
+                 <!-- Sobre -->
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row d-flex">
+                             <div class="col-5">
+                                 <img src="./img/casa-1.jpg" class="w-100 rounded" alt="">
+                             </div>
+                             <div class="col-7">
+                                 <h3 class="h3">Sobre <span>a Imobiliária</span></h3>
+                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus optio, ipsum, atque porro rem itaque ullam adipisci cum est doloribus et voluptatum neque libero sequi quaerat dolor tempore rerum vitae!</p>
+                                 <h4 class="h4">Sobre <span>os imóveis</span></h4>
+                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum dicta voluptatibus sunt ullam eveniet sint omnis quisquam! Quaerat ullam perferendis sequi provident odio debitis magnam sapiente, est architecto velit quisquam.</p>
+                                 <ol>
+                                     <li>Item</li>
+                                     <li>Item</li>
+                                     <li>Item</li>
+                                 </ol>
+                             </div>
+                        </div>
+                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#slideSobre" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Prev</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#slideSobre" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-             <!-- Sobre -->
-            <div class="pt-5 pb-5">
-                <div class="container">
-                    <div class="row d-flex">
-                         <div class="col-5">
-                             <img src="./img/pexels-apgpotr-810041.jpg" class="rounded" alt="">
-                         </div>
-                         <div class="col-7">
-                             <h3 class="h3">Sobre <span>o restaurante</span></h3>
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus optio, ipsum, atque porro rem itaque ullam adipisci cum est doloribus et voluptatum neque libero sequi quaerat dolor tempore rerum vitae!</p>
-                             <h4 class="h4">Sobre <span>o espaço</span></h4>
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum dicta voluptatibus sunt ullam eveniet sint omnis quisquam! Quaerat ullam perferendis sequi provident odio debitis magnam sapiente, est architecto velit quisquam.</p>
-                             <ol>
-                                 <li>Item</li>
-                                 <li>Item</li>
-                                 <li>Item</li>
-                             </ol>
-                         </div>
-                    </div>
-                 </div>
-            </div>
-         </section>
+             </section>
+        </div>
+         <!-- Eventos -->
          <section class="" id="evento">
             <div class="container">
                 <div class="row">
-                    <div class="h2 text-center">Para todos<span> os momentos</span></div>
+                    <div class="h2 text-center">Imóveis em<span> destaque</span></div>
                 </div>
                 <div class="row mt-3">
                     <div class="col-4">
-                        <img src="./img/pexels-cottonbro-4684265.jpg" alt="" class="d-block w-100 rounded">
+                        <img src="./img/apart-5.jpg" alt="" class="d-block w-100 rounded">
                         <h3 class="h3 text-colored fs-4">
-                            <i class="bi bi-calendar-heart"></i>
-                            Aniversário
+                            <i class="bi bi-building-fill"></i>
+                            Apartamentos
                         </h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde culpa tempora harum ea. Quas, eaque porro officiis in fugiat laboriosam, vero error illum omnis distinctio perspiciatis laborum doloribus unde molestiae, deserunt nisi nobis accusamus quo optio quibusdam! Nihil, explicabo expedita!</p>
                     </div>
                     <div class="col-4">
-                        <img src="./img/pexels-iriser-916344.jpg" alt="" class="d-block w-100 rounded">
+                        <img src="./img/casa-4.jpg" alt="" class="d-block w-100 rounded">
                         <h3 class="h3 text-colored fs-4">
-                            <i class="bi bi-balloon-heart"></i>
-                            Recepção para casamento
+                            <i class="bi bi-house-heart"></i>
+                            Casas
                         </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis quasi voluptas facilis quae obcaecati fugiat corporis ipsum et, quidem ea! Aperiam accusamus iste, magni voluptatum mollitia nesciunt asperiores deleniti, amet esse pariatur porro laborum molestiae laudantium nihil exercitationem voluptatem.</p>
                     </div>
                     <div class="col-4">
-                        <img src="./img/pexels-cottonbro-3171815.jpg" alt="" class="d-block w-100 rounded">
+                        <img src="./img/terreno-3.jpg" alt="" class="d-block w-100 rounded">
                         <h3 class="h3 text-colored fs-4">
-                            <i class="bi bi-people-fill"></i>
-                            Confraternização
+                            <i class="bi bi-pin-map"></i>
+                            Terrenos
                         </h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptates perspiciatis at voluptas, tenetur labore ratione consectetur iure pariatur qui esse maiores suscipit eius, quo nihil ut obcaecati nesciunt. Laboriosam pariatur, corrupti odit similique minima laborum dolorem optio ex aperiam!</p>
                     </div>
@@ -140,16 +144,16 @@
          <section id="cardapio" class="">
             <div class="container">
                 <div class="row">
-                    <h2 class="h2 text-center">Nosso<span class=""> Cardápio</span></h2>
+                    <h2 class="h2 text-center">Nossos<span class=""> imóveis</span></h2>
                 </div>
                 <div class="row mt-3">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidasSemAlcool" class="fw-bold text-star nav-link text-colored active">Bebidas não alcólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidasComAlcool" class="fw-bold text-star nav-link text-colored">Bebidas alcólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-star nav-link text-colored">Entradas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratosPrincimpais" class="fw-bold text-star nav-link text-colored">Pratos princimpais</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-star nav-link text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidasSemAlcool" class="fw-bold text-star nav-link text-colored active">Casas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidasComAlcool" class="fw-bold text-star nav-link text-colored">Apartamentos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-star nav-link text-colored">Terrenos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratosPrincimpais" class="fw-bold text-star nav-link text-colored">Destauqes</button>
+                            <!-- <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-star nav-link text-colored">Sobremesas</button> -->
                         </nav>
                     </aside>
                     <div class="col-md-10">
@@ -159,204 +163,204 @@
                                 <div class="row row-cols-1 row-cols-md-4 g-4">
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/coca-cola.jpg" alt="coca-cola" class="card-img-top">
+                                            <img src="./img/casa-1.jpg" alt="Casa 1" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Coca-cola</h5>
+                                                <h5 class="card-title">Casa 1</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/sucoDeLimao.jpg" alt="sucoDeLimao" class="card-img-top">
+                                            <img src="./img/casa-2.jpg" alt="Casa 2" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Suco de limão</h5>
+                                                <h5 class="card-title">Casa 2</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/sucoDeManga.jpg" alt="Suco de Manga" class="card-img-top">
+                                            <img src="./img/casa-3.jpg" alt="Casa 3" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Suco de Manga</h5>
+                                                <h5 class="card-title">Casa 3</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/sucoDeMorango.jpg" alt="Suco de Morango" class="card-img-top">
+                                            <img src="./img/casa-4.jpg" alt="Casa 4" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Suco de Morango</h5>
+                                                <h5 class="card-title">Casa 4</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/sucoDeUva.jpg" alt="Suco de Uva" class="card-img-top">
+                                            <img src="./img/casa-1.jpg" alt="Casa 5" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Suco de Uva</h5>
+                                                <h5 class="card-title">Casa 5</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Com Alcool -->
+                            <!-- Apartamento -->
                             <div class="tab-pane" id="bebidasComAlcool">
                                 <div class="row row-cols-1 row-cols-md-4 g-4">
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkAcerola.jpg" alt="Drink de Acerola" class="card-img-top">
+                                            <img src="./img/apart-1.jpg" alt="Apartamento 1" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Acerola</h5>
+                                                <h5 class="card-title">Apartamento 1</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkLaranja.jpg" alt="Drink de Laranja" class="card-img-top">
+                                            <img src="./img/apart-2.jpg" alt="Apartamento 2" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Laranja</h5>
+                                                <h5 class="card-title">Apartamento 2</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkLimao2.jpg" alt="Drink de Limão 2" class="card-img-top">
+                                            <img src="./img/apart-3.jpg" alt="Apartamento 3" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Limão Plus</h5>
+                                                <h5 class="card-title">Apartamento 3</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkLimão.jpg" alt="Drink de Limão" class="card-img-top">
+                                            <img src="./img/apart-4.jpg" alt="Apartamento 4" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Limão</h5>
+                                                <h5 class="card-title">Apartamento 4</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkMorango.jpg" alt="Drink de Morango" class="card-img-top">
+                                            <img src="./img/apart-5.jpg" alt="Apartamento 5" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Morango</h5>
+                                                <h5 class="card-title">Apartamento 5</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkOrtelan.jpg" alt="Drink de Ortelan" class="card-img-top">
+                                            <img src="./img/apart-1.jpg" alt="Apartamento 6" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Ortelã</h5>
+                                                <h5 class="card-title">Apartamento 6</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Entradas -->
+                            <!-- Terrenos -->
                             <div class="tab-pane" id="entradas">
                                 <div class="row row-cols-1 row-cols-md-4 g-4">
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/lanche-1.jpg" alt="Lanche-1" class="card-img-top">
+                                            <img src="./img/terreno-1.jpg" alt="Terreno 1" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Entrada 1</h5>
+                                                <h5 class="card-title">Terreno 1</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/lanche-2.jpg" alt="Lanche-2" class="card-img-top">
+                                            <img src="./img/terreno-2.jpg" alt="Terreno 2" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Entrada 2</h5>
+                                                <h5 class="card-title">Terreno 2</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/lanche-3.jpg" alt="Lanche 3" class="card-img-top">
+                                            <img src="./img/terreno-3.jpg" alt="Terreno 3" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Entrada 3</h5>
+                                                <h5 class="card-title">Terreno 3</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/lanche-4.jpg" alt="Entrada 4" class="card-img-top">
+                                            <img src="./img/terreno-1.jpg" alt="Terreno 4" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Entrada 4</h5>
+                                                <h5 class="card-title">Terreno 4</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/lanche-5.jpg" alt="Entrada 5" class="card-img-top">
+                                            <img src="./img/terreno-2.jpg" alt="Terreno 5" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Entrada 5</h5>
+                                                <h5 class="card-title">Terreno 5</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/drinkOrtelan.jpg" alt="Drink de Ortelan" class="card-img-top">
+                                            <img src="./img/terreno-3.jpg" alt="Terreno 6" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Drink de Ortelã</h5>
+                                                <h5 class="card-title">Terreno 6</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Pratos Princimpais -->
+                            <!-- Destaques -->
                             <div class="tab-pane" id="pratosPrincimpais">
                                 <div class="row row-cols-1 row-cols-md-4 g-4">
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/food camarao.jpg" alt="Camarão" class="card-img-top">
+                                            <img src="./img/apart-2.jpg" alt="Apartamento 1" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Camarão</h5>
+                                                <h5 class="card-title">Apartamento 1</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/food massa.jpg" alt="Massa" class="card-img-top">
+                                            <img src="./img/casa-2.jpg" alt="Casa 2" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Massa</h5>
+                                                <h5 class="card-title">Casa 2</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/food rice.jpg" alt="Arroz" class="card-img-top">
+                                            <img src="./img/terreno-2.jpg" alt="terreno 1" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Arroz</h5>
+                                                <h5 class="card-title">Terreno 1</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card">
-                                            <img src="./img/food salada.jpg" alt="Salada" class="card-img-top">
+                                            <img src="./img/apart-3.jpg" alt="Apartamento 2" class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">Salada</h5>
+                                                <h5 class="card-title">Apartamento 2</h5>
                                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, sint.</p>
                                             </div>
                                         </div>
@@ -364,7 +368,7 @@
                                 </div>
                             </div>
                             <!-- Sobremessas -->
-                            <div class="tab-pane" id="sobremesas">
+                            <!-- <div class="tab-pane" id="sobremesas">
                                 <div class="row row-cols-1 row-cols-md-4 g-4">
                                     <div class="col-md-3">
                                         <div class="card">
@@ -403,7 +407,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
